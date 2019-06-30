@@ -1,2 +1,18 @@
 # qgis-basemaps
 A collection of several basemaps in xml file.
+
+Add `57` basemaps on `QGIS` by right click on XYZ Tiles and load connections.
+If you want to add some of the basemaps it's free to make a PR.
+
+To remove all the connections at once. You can use the following code:
+```
+settings = QgsSettings()
+settings.remove('qgis/connections-xyz')
+iface.reloadConnections()
+```
+
+Note:
+Copyrights of the map are the sole responsibility of the user.
+
+A nice script to add basemaps via python console: 
+https://github.com/klakar/QGIS_resources/blob/master/collections/Geosupportsystem/python/qgis_basemaps.py

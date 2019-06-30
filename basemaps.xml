@@ -1,0 +1,83 @@
+<!DOCTYPE connections>
+<qgsXYZTilesConnections version="1.0">
+
+	<!-- ArcGIS services basemaps -->
+	<xyztiles url="https://services.arcgisonline.com/arcgis/rest/services/Ocean/World_Ocean_Base/MapServer/tile/{z}/{y}/{x}" password="" name="Esri Ocean Basemap" referer="https://developers.arcgis.com/javascript/3/jsapi/esri.basemaps-amd.html" zmax="19" authcfg="" username="" zmin="0"/>	
+	<xyztiles url="https://services.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Light_Gray_Base/MapServer/tile/{z}/{y}/{x}" password="" name="Esri World Light Gray" referer="https://developers.arcgis.com/javascript/3/jsapi/esri.basemaps-amd.html" zmax="19" authcfg="" username="" zmin="0"/>	
+	<xyztiles url="https://services.arcgisonline.com/ArcGIS/rest/services/NatGeo_World_Map/MapServer/tile/{z}/{y}/{x}" password="" name="Esri National Geographic" referer="https://developers.arcgis.com/javascript/3/jsapi/esri.basemaps-amd.html" zmax="19" authcfg="" username="" zmin="0"/>	
+	<xyztiles url="http://services.arcgisonline.com/ArcGIS/rest/services/World_Physical_Map/MapServer/tile/{z}/{y}/{x}" password="" name="Esri World Physical Map" referer="" zmax="19" authcfg="" username="" zmin="0"/>	
+	<xyztiles url="http://services.arcgisonline.com/ArcGIS/rest/services/World_Physical_Map/MapServer/tile/{z}/{y}/{x}" password="" name="Esri World Physical Map" referer="" zmax="19" authcfg="" username="" zmin="0"/>	
+	<xyztiles url="http://server.arcgisonline.com/ArcGIS/rest/services/Specialty/DeLorme_World_Base_Map/MapServer/tile/{z}/{y}/{x}" password="" name="Esri DeLorme World Basemap" referer="" zmax="19" authcfg="" username="" zmin="0"/>	
+	<xyztiles url="http://services.arcgisonline.com/ArcGIS/rest/services/World_Shaded_Relief/MapServer/tile/{z}/{y}/{x}" password="" name="Esri World Shaded Relief" referer="" zmax="19" authcfg="" username="" zmin="0"/>
+	<xyztiles url="https://server.arcgisonline.com/arcgis/rest/services/Reference/World_Boundaries_and_Places_Alternate/MapServer/tile/{z}/{y}/{x}" password="" name="Esri World Boundaries and Places Alternate" referer="" zmax="19" authcfg="" username="" zmin="0"/>
+	<xyztiles url="https://server.arcgisonline.com/arcgis/rest/services/Reference/World_Boundaries_and_Places/MapServer/tile/{z}/{y}/{x}" password="" name="Esri World Boundaries and Places" referer="" zmax="19" authcfg="" username="" zmin="0"/>	
+	<xyztiles url="https://server.arcgisonline.com/arcgis/rest/services/Reference/World_Reference_Overlay/MapServer/tile/{z}/{y}/{x}" password="" name="Esri World Reference Overlay" referer="" zmax="19" authcfg="" username="" zmin="0"/>
+	<xyztiles url="https://server.arcgisonline.com/arcgis/rest/services/Reference/World_Transportation/MapServer/tile/%7Bz%7D/%7By%7D/%7Bx%7D" password="" name="Esri Transportation" referer="" zmax="19" authcfg="" username="" zmin="0"/>
+	<xyztiles url="https://server.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer/tile/{z}/{y}/{x}" password="" name="Esri Streets" referer="" zmax="19" authcfg="" username="" zmin="0"/>
+	<xyztiles url="https://server.arcgisonline.com/ArcGIS/rest/services/Reference/World_Boundaries_and_Places/MapServer/tile/%7Bz%7D/%7By%7D/%7Bx%7D" password="" name="Esri Boundaries Places" referer="" zmax="20" authcfg="" username="" zmin="0"/>
+    <xyztiles url="http://services.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Dark_Gray_Base/MapServer/tile/%7Bz%7D/%7By%7D/%7Bx%7D" password="" name="Esri Gray (dark)" referer="" zmax="16" authcfg="" username="" zmin="0"/>
+    <xyztiles url="http://services.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Light_Gray_Base/MapServer/tile/%7Bz%7D/%7By%7D/%7Bx%7D" password="" name="Esri Gray (light)" referer="" zmax="16" authcfg="" username="" zmin="0"/>
+    <xyztiles url="http://services.arcgisonline.com/ArcGIS/rest/services/NatGeo_World_Map/MapServer/tile/%7Bz%7D/%7By%7D/%7Bx%7D" password="" name="Esri National Geographic" referer="" zmax="12" authcfg="" username="" zmin="0"/>
+    <xyztiles url="https://services.arcgisonline.com/ArcGIS/rest/services/Ocean/World_Ocean_Base/MapServer/tile/%7Bz%7D/%7By%7D/%7Bx%7D" password="" name="Esri Ocean" referer="" zmax="10" authcfg="" username="" zmin="0"/>
+    <xyztiles url="https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/%7Bz%7D/%7By%7D/%7Bx%7D" password="" name="Esri Satellite" referer="" zmax="17" authcfg="" username="" zmin="0"/>
+    <xyztiles url="https://server.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer/tile/%7Bz%7D/%7By%7D/%7Bx%7D" password="" name="Esri Standard" referer="" zmax="17" authcfg="" username="" zmin="0"/>
+    <xyztiles url="https://server.arcgisonline.com/ArcGIS/rest/services/World_Terrain_Base/MapServer/tile/%7Bz%7D/%7By%7D/%7Bx%7D" password="" name="Esri Terrain" referer="" zmax="13" authcfg="" username="" zmin="0"/>
+    <xyztiles url="http://services.arcgisonline.com/ArcGIS/rest/services/World_Topo_Map/MapServer/tile/%7Bz%7D/%7By%7D/%7Bx%7D" password="" name="Esri Topo World" referer="" zmax="20" authcfg="" username="" zmin="0"/>
+	
+	<!-- Tiles wmflabs basemaps -->
+	<xyztiles url="http://tiles.wmflabs.org/bw-mapnik/{z}/{x}/{y}.png" password="" name="OSM Black and White" referer="" zmax="19" authcfg="" username="" zmin="0"/>
+	<xyztiles url="http://tile.thunderforest.com/cycle/{z}/{x}/{y}.png" password="" name="OSM Cycle Map" referer="" zmax="19" authcfg="" username="" zmin="0"/>
+	<xyztiles url="http://tiles.wmflabs.org/bw-mapnik/%7Bz%7D/%7Bx%7D/%7By%7D.png" password="" name="OpenStreetMap Monochrome" referer="OpenStreetMap contributors, CC-BY-SA" zmax="19" authcfg="" username="" zmin="0"/>
+	
+	<!-- CartoDB basemaps -->
+	<xyztiles url="https://a.basemaps.cartocdn.com/light_nolabels/%7Bz%7D/%7Bx%7D/%7By%7D.png" password="" name="CartoDb Lite rainbow" referer="" zmax="19" authcfg="" username="" zmin="0"/>
+	<xyztiles url="http://basemaps.cartocdn.com/dark_nolabels/%7Bz%7D/%7Bx%7D/%7By%7D.png" password="" name="CartoDb Dark Matter Lite rainbow" referer="" zmax="19" authcfg="" username="" zmin="0"/>
+	<xyztiles url="http://basemaps.cartocdn.com/dark_only_labels/%7Bz%7D/%7Bx%7D/%7By%7D.png" password="" name="CartoDb Dark only labels" referer="" zmax="19" authcfg="" username="" zmin="0"/>
+	<xyztiles url="http://basemaps.cartocdn.com/light_only_labels/%7Bz%7D/%7Bx%7D/%7By%7D.png" password="" name="CartoDb Light only labels" referer="" zmax="19" authcfg="" username="" zmin="0"/>
+	<xyztiles url="https://cartocdn_a.global.ssl.fastly.net/base-antique/{z}/{x}/{y}.png" password="" name="CartoDB World Antique" referer="" zmax="19" authcfg="" username="" zmin="0"/>
+	<xyztiles url="https://cartocdn_a.global.ssl.fastly.net/base-flatblue/{z}/{x}/{y}.png" password="" name="CartoDB World Flat Blue" referer="" zmax="19" authcfg="" username="" zmin="0"/>
+	<xyztiles url="https://cartocdn_a.global.ssl.fastly.net/base-eco/{z}/{x}/{y}.png" password="" name="CartoDB World Eco" referer="" zmax="19" authcfg="" username="" zmin="0"/>
+	<xyztiles url="https://cartocdn_a.global.ssl.fastly.net/base-midnight/{z}/{x}/{y}.png" password="" name="CartoDB World Midnight Commander" referer="" zmax="19" authcfg="" username="" zmin="0"/>
+	<xyztiles url="http://basemaps.cartocdn.com/rastertiles/voyager/%7Bz%7D/%7Bx%7D/%7By%7D.png" password="" name="CartoDb voyager" referer="" zmax="19" authcfg="" username="" zmin="0"/>
+	<xyztiles url="http://basemaps.cartocdn.com/rastertiles/voyager_nolabels/%7Bz%7D/%7Bx%7D/%7By%7D.png" password="" name="CartoDb voyager no labels" referer="" zmax="19" authcfg="" username="" zmin="0"/>
+	<xyztiles url="http://basemaps.cartocdn.com/rastertiles/voyager_only_labels/%7Bz%7D/%7Bx%7D/%7By%7D.png" password="" name="CartoDb voyager only labels" referer="" zmax="19" authcfg="" username="" zmin="0"/>
+	<xyztiles url="http://basemaps.cartocdn.com/rastertiles/voyager_labels_under/%7Bz%7D/%7Bx%7D/%7By%7D.png" password="" name="CartoDb voyager labels under" referer="" zmax="19" authcfg="" username="" zmin="0"/>
+    <xyztiles url="http://ecn.t3.tiles.virtualearth.net/tiles/a{q}.jpeg?g=1" password="" name="Bing VirtualEarth" referer="" zmax="19" authcfg="" username="" zmin="0"/>
+    <xyztiles url="http://basemaps.cartocdn.com/dark_all/%7Bz%7D/%7Bx%7D/%7By%7D.png" password="" name="CartoDb Dark Matter" referer="Map tiles by CartoDB, under CC BY 3.0. Data by OpenStreetMap, under ODbL." zmax="20" authcfg="" username="" zmin="0"/>
+    <xyztiles url="http://basemaps.cartocdn.com/light_all/%7Bz%7D/%7Bx%7D/%7By%7D.png" password="" name="CartoDb Positron" referer="Map tiles by CartoDB, under CC BY 3.0. Data by OpenStreetMap, under ODbL." zmax="20" authcfg="" username="" zmin="0"/>
+	
+	<!-- Google basemaps -->
+    <xyztiles url="https://mt1.google.com/vt/lyrs=m&amp;x=%7Bx%7D&amp;y=%7By%7D&amp;z=%7Bz%7D" password="" name="Google Maps" referer="" zmax="19" authcfg="" username="" zmin="0"/>
+    <xyztiles url="https://mt1.google.com/vt/lyrs=s&amp;x=%7Bx%7D&amp;y=%7By%7D&amp;z=%7Bz%7D" password="" name="Google Satellite" referer="" zmax="19" authcfg="" username="" zmin="0"/>
+    <xyztiles url="https://mt1.google.com/vt/lyrs=y&amp;x=%7Bx%7D&amp;y=%7By%7D&amp;z=%7Bz%7D" password="" name="Google Satellite Hybrid" referer="" zmax="19" authcfg="" username="" zmin="0"/>
+    <xyztiles url="https://mt1.google.com/vt/lyrs=t&amp;x=%7Bx%7D&amp;y=%7By%7D&amp;z=%7Bz%7D" password="" name="Google Terrain" referer="" zmax="19" authcfg="" username="" zmin="0"/>
+    <xyztiles url="https://mt1.google.com/vt/lyrs=p&amp;x=%7Bx%7D&amp;y=%7By%7D&amp;z=%7Bz%7D" password="" name="Google Terrain Hybrid" referer="" zmax="19" authcfg="" username="" zmin="0"/>
+	
+	<!-- OpenWeatherMap basemaps -->
+    <xyztiles url="http://tile.openweathermap.org/map/clouds_new/%7Bz%7D/%7Bx%7D/%7By%7D.png?APPID=ef3c5137f6c31db50c4c6f1ce4e7e9dd" password="" name="Open Weather Map Clouds" referer="Map tiles by OpenWeatherMap, under CC BY-SA 4.0" zmax="19" authcfg="" username="" zmin="0"/>
+    <xyztiles url="http://tile.openweathermap.org/map/temp_new/%7Bz%7D/%7Bx%7D/%7By%7D.png?APPID=1c3e4ef8e25596946ee1f3846b53218a" password="" name="Open Weather Map Temperature" referer="Map tiles by OpenWeatherMap, under CC BY-SA 4.0" zmax="19" authcfg="" username="" zmin="0"/>
+    <xyztiles url="http://tile.openweathermap.org/map/wind_new/%7Bz%7D/%7Bx%7D/%7By%7D.png?APPID=f9d0069aa69438d52276ae25c1ee9893" password="" name="Open Weather Map Wind Speed" referer="Map tiles by OpenWeatherMap, under CC BY-SA 4.0" zmax="19" authcfg="" username="" zmin="0"/>
+    
+	<!-- OpenStreetMap basemaps -->
+	<xyztiles url="http://tile.openstreetmap.fr/hot/%7Bz%7D/%7Bx%7D/%7By%7D.png" password="" name="OpenStreetMap H.O.T." referer="OpenStreetMap contributors, CC-BY-SA" zmax="19" authcfg="" username="" zmin="0"/>
+	<xyztiles url="http://tile.openstreetmap.org/%7Bz%7D/%7Bx%7D/%7By%7D.png" password="" name="OpenStreetMap Standard" referer="OpenStreetMap contributors, CC-BY-SA" zmax="19" authcfg="" username="" zmin="0"/>
+    <xyztiles url="http://a.tile.openstreetmap.org/{z}/{x}/{y}.png" password="" name="OpenStreetMap" referer="" zmax="19" authcfg="" username="" zmin="0"/>
+		
+	<!-- OpenTopoMap basemaps -->
+    <xyztiles url="https://tile.opentopomap.org/%7Bz%7D/%7Bx%7D/%7By%7D.png" password="" name="OpenTopoMap" referer="Kartendaten: © OpenStreetMap-Mitwirkende, SRTM | Kartendarstellung: © OpenTopoMap (CC-BY-SA)" zmax="17" authcfg="" username="" zmin="0"/>
+    
+	<!-- Stamen basemaps -->
+	<xyztiles url="http://tile.stamen.com/terrain/%7Bz%7D/%7Bx%7D/%7By%7D.png" password="" name="Stamen Terrain" referer="Map tiles by Stamen Design, under CC BY 3.0. Data by OpenStreetMap, under ODbL" zmax="20" authcfg="" username="" zmin="0"/>
+    <xyztiles url="http://tile.stamen.com/toner/%7Bz%7D/%7Bx%7D/%7By%7D.png" password="" name="Stamen Toner" referer="Map tiles by Stamen Design, under CC BY 3.0. Data by OpenStreetMap, under ODbL" zmax="20" authcfg="" username="" zmin="0"/>
+    <xyztiles url="http://tile.stamen.com/toner-lite/%7Bz%7D/%7Bx%7D/%7By%7D.png" password="" name="Stamen Toner Light" referer="Map tiles by Stamen Design, under CC BY 3.0. Data by OpenStreetMap, under ODbL" zmax="20" authcfg="" username="" zmin="0"/>
+    <xyztiles url="http://tile.stamen.com/watercolor/%7Bz%7D/%7Bx%7D/%7By%7D.jpg" password="" name="Stamen Watercolor" referer="Map tiles by Stamen Design, under CC BY 3.0. Data by OpenStreetMap, under ODbL" zmax="18" authcfg="" username="" zmin="0"/>
+    
+	<!-- Strava basemaps -->
+	<xyztiles url="https://heatmap-external-b.strava.com/tiles/all/bluered/%7Bz%7D/%7Bx%7D/%7By%7D.png" password="" name="Strava All" referer="OpenStreetMap contributors, CC-BY-SA" zmax="15" authcfg="" username="" zmin="0"/>
+	<xyztiles url="https://heatmap-external-b.strava.com/tiles/run/bluered/%7Bz%7D/%7Bx%7D/%7By%7D.png?v=19" password="" name="Strava Run" referer="OpenStreetMap contributors, CC-BY-SA" zmax="15" authcfg="" username="" zmin="0"/>
+    
+	<!-- Wikimedia basemaps -->
+    <xyztiles url="https://maps.wikimedia.org/osm-intl/%7Bz%7D/%7Bx%7D/%7By%7D.png" password="" name="Wikimedia Map" referer="OpenStreetMap contributors, under ODbL" zmax="20" authcfg="" username="" zmin="0"/>
+	<xyztiles url="http://tiles.wmflabs.org/hikebike/%7Bz%7D/%7Bx%7D/%7By%7D.png" password="" name="Wikimedia Hike Bike Map" referer="OpenStreetMap contributors, under ODbL" zmax="17" authcfg="" username="" zmin="0"/>
+	
+</qgsXYZTilesConnections>
