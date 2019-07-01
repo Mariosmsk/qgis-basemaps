@@ -1,6 +1,9 @@
 <!DOCTYPE connections>
 <qgsXYZTilesConnections version="1.0">
 
+	<!-- 2GIS -->
+    <xyztiles url="http://tile1.maps.2gis.com/tiles?x={x}&amp;y={y}&amp;z={z}" zmin="0" referer="" zmax="19" authcfg="" password="" name="2GIS" username=""/>
+
 	<!-- ArcGIS services basemaps -->
 	<xyztiles url="https://services.arcgisonline.com/arcgis/rest/services/Ocean/World_Ocean_Base/MapServer/tile/{z}/{y}/{x}" password="" name="Esri Ocean Basemap" referer="https://developers.arcgis.com/javascript/3/jsapi/esri.basemaps-amd.html" zmax="19" authcfg="" username="" zmin="0"/>	
 	<xyztiles url="https://services.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Light_Gray_Base/MapServer/tile/{z}/{y}/{x}" password="" name="Esri World Light Gray" referer="https://developers.arcgis.com/javascript/3/jsapi/esri.basemaps-amd.html" zmax="19" authcfg="" username="" zmin="0"/>	
