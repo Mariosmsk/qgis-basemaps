@@ -1,5 +1,5 @@
 # qgis-basemaps
-A collection of several basemaps in xml file.
+A collection of several basemaps in an xml file.
 
 Add `57` basemaps on `QGIS` by right click on XYZ Tiles and load connections.
 If you want to add some of the basemaps it's free to make a PR.
