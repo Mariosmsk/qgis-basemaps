@@ -4,6 +4,11 @@ A collection of several basemaps in xml file.
 Add `57` basemaps on `QGIS` by right click on XYZ Tiles and load connections.
 If you want to add some of the basemaps it's free to make a PR.
 
+Template: 
+```
+<xyztiles url="...MapServer/tile/{z}/{y}/{x}" password="" name="NAME of BASEMAP" referer="..." zmax="19" authcfg="..." username="..." zmin="0"/>
+```
+
 To remove all the connections at once. You can use the following code:
 ```
 settings = QgsSettings()
